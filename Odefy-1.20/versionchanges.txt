@@ -1,0 +1,35 @@
+Odefy - Version changes
+http://cmb.helmholtz-muenchen.de/odefy
+http://github.com/krumsieklab/Odefy
+
+1.19 => 1.20 (2019-10-28)
+============
+- fixed bug relating to fileparts() signature change in additional functions (see 1.18=>1.19 update)
+
+1.18 => 1.19 (2015-11-26)
+============
+- fixed a bug that would let OdefySimulation.m crash due to a signature change of the MATLAB fileparts() function
+
+1.17 => 1.18 (2012-01-21)
+============
+- corrected a bug in SetParameters affecting species without input regulators
+- corrected a bug that would let InitOdefy crash in newer Octave versions
+
+1.16 => 1.17 (2010-10-13)
+============
+Correctional bugfix release
+- the 1.15=>1.16 introduced a problem that would let the visualization code crash in older MATLAB versions
+
+1.15 => 1.16 (2010-10-04)
+============
+Bugfix release
+- heatmap visualization of simulations was buggy (x-axis scaling distored), fixed now
+
+1.10 => 1.15
+============
+- Java GUI support now back to MATLAB version 7.1
+- corrected minor bugs (BooleanStates function, graph import function, removed obsolete MATLAB function calls)
+
+1.10
+====
+=> First official release
